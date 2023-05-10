@@ -1,0 +1,3 @@
+use("library")
+//db.books.find().count()
+db.books.find( {price : { $gte: 50000} })

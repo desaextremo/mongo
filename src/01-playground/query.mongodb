@@ -1,6 +1,4 @@
 use("sample_training")
-db.zips.find({ state: "AL" })
-
-//db.zips.find({ state: "NY" }).count()
-
-db.getCollectionInfos( { name: "zips" } )
+//db.zips.find({ state: "AL" })
+db.zips.find({ state: "NY" }).count()
+//db.getCollectionInfos( { name: "zips" } )
